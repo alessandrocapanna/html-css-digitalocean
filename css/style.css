@@ -1,0 +1,80 @@
+/* INIZIO REGOLE GENERALI */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+/* FINE REGOLE GENERALI */
+
+/* INZIO COMPONENTI */
+.ms_section-primary {
+  background-color: #f3f5f9;
+}
+.ms_section-secondary {
+  background-color: #0138b3;
+  color: white;
+}
+.ms_titolo {
+  color: #041d4f;
+}
+.ms_sottotitolo {
+  color: #5c6a87;
+}
+/* FINE COMPONENTI */
+
+/* INIZIO HEADER */
+/* inizio nav */
+img {
+  height: 30px;
+}
+header nav {
+  line-height: 60px;
+}
+.ms_sign-up {
+  border-color: #237eff;
+  color: #237eff;
+}
+.ms_burger-menu {
+  color: #237eff;
+  font-size: 20px;
+}
+/* fine nav */
+
+/* inizio jumbo */
+.ms_jumbo {
+  background-image: url(../img/bg-home.jpg);
+  background-size: cover;
+}
+.ms_jumbo .row {
+  margin: 40px 0;
+}
+.ms_jumbo h1 {
+  color: white;
+  font-size: 56px;
+  margin-top: 0;
+}
+.ms_jumbo p {
+  font-size: 22px;
+  color: #bacbfe;
+}
+
+.ms_jumbo .ms_box {
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px 10px;
+}
+.ms_jumbo .ms_box button {
+  width: 100%;
+  border-color: white;
+}
+.ms_jumbo .ms_box button {
+  color: white;
+  background-color: #569aff;
+}
+/* fine jumbo */
+/* FINE HEADER */
+
+/* INIZIO MAIN */
+/* FINE MAIN */
+
+/* INZIO FOOTER */
+/* FINE FOOTER */
