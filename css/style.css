@@ -33,13 +33,13 @@ blockquote {
   color: #026ffe;
 }
 .ms_carosello {
-  margin:40px 0;
-  max-width: 992px;
+  margin:40px auto;
+  min-width: 200px;
+  position: relative;
 }
 .ms_carosello .ms_img {
   margin: 0 auto;
   width: 70%;
-  position: relative;
 }
 .ms_carosello i {
   font-size: 40px;
@@ -159,7 +159,7 @@ header nav {
   width: calc(100%/7);
 }
 #partners img {
-  padding: 10px;
+  padding:0 10px;
   width: 100%;
   height: 100%
 }
@@ -171,7 +171,7 @@ header nav {
 
 /* inizio section design */
 #design img{
-  height: 250px;
+  height: 350px;
 }
 #design {
   padding: 30px 0;
@@ -232,11 +232,9 @@ header nav {
 /* fine section regions-speed */
 
 /* inizio section development-team */
-#development-team .ms_box-carosello {
-  width: 450px;
-  margin:0 auto;
+#development-team .ms_img {
   background-color: white;
-  padding: 30px 5px 30px 5px;
+  padding: 30px 5px;
 }
 #development-team img {
   height: 30px;
@@ -370,18 +368,11 @@ footer ul.list-unstyled li a {
   #partners  ul li {
     width: 46%;
   }
-  #design .ms_carosello .ms_img i {
+  .ms_carosello .ms_img i {
     display: none;
   }
   #design .ms_carosello img {
     height: 150px;
-    padding: 0 5px;
-  }
-  #design .ms_carosello .ms_img {
-    height: 150px;
-  }
-  #development-team .ms_carosello i {
-    display: none;
   }
   #development-team img {
     height: 25px;
